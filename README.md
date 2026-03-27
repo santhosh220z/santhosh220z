@@ -66,7 +66,7 @@ I am also exploring reinforcement learning and simulation-based environments to 
 
 ## GitHub Trophies
 
-![](https://github-profile-trophy.vercel.app/?username=santhosh220z&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+![]([https://github-profile-trophy.vercel.app/?username=santhosh220z&theme=radical&no-frame=false&no-bg=true&margin-w=4](https://komarev.com/ghpvc/?username=santhosh220z&label=Profile%20views&color=0e75b6&style=flat))
 
 ## Random Dev Quote
 
