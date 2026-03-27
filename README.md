@@ -61,12 +61,10 @@ I am also exploring reinforcement learning and simulation-based environments to 
 ## GitHub Stats
 
 ![](https://github-readme-stats.vercel.app/api?username=santhosh220z&theme=dark&hide_border=false&include_all_commits=true&count_private=false)
-![](https://nirzak-streak-stats.vercel.app/?user=santhosh220z&theme=dark&hide_border=false)
+![](https://github-readme-streak-stats.herokuapp.com/?user=santhosh220z)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=santhosh220z&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-## GitHub Trophies
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=santhosh220z)
+![]()
 
 ## Random Dev Quote
 
