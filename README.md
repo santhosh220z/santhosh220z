@@ -59,7 +59,7 @@ I am also exploring reinforcement learning and simulation-based environments to 
 ![GitHub](https://img.shields.io/badge/github-121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 ## GitHub Stats
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=santhosh220z&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=santhosh220z&show_icons=true&theme=dark)
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=santhosh220z&theme=radical)
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=santhosh220z&layout=compact&theme=radical)
 ![]()
