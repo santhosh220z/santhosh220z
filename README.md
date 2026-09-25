@@ -71,6 +71,12 @@ I am also exploring reinforcement learning and simulation-based environments to 
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=santhosh220z&layout=compact&theme=radical)
 ![]()
 
+### Contribution Graph
+
+<p align="center">
+  <img width="100%" src="https://github-readme-activity-graph-gold-gamma.vercel.app/graph?username=santhosh220z&bg_color=00000000&color=2ea043&line=2ea043&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
+</p>
+
 ## Random Dev Quote
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
