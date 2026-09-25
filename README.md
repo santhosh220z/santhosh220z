@@ -1,6 +1,13 @@
-# Hi, I'm Santhosh Sunkara
+<p align="center">
+  <a href="https://github.com/santhosh220z">
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=2ea043&fontSize=54&height=90&width=698&text=Hello!%20I'm%20santhosh" alt="Hello! I&#39;m santhosh" />
+  </a>
+</p>
 
-Aspiring AI/ML engineer focused on building intelligent, scalable, and real-time systems.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=1000&color=a371f7&center=true&vCenter=true&width=595&height=44&lines=i%20do%20opensource;interested%20in%20machine%20learning%20and%20AI" alt="Typing headlines" />
+</p>
+
 
 ## About Me
 
