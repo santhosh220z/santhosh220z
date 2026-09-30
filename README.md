@@ -1,85 +1,67 @@
-<p align="center">
-  <a href="https://github.com/santhosh220z">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=2ea043&fontSize=54&height=90&width=698&text=Hello!%20I'm%20santhosh" alt="Hello! I&#39;m santhosh" />
-  </a>
-</p>
+# Santhosh Sunkara
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=1000&color=a371f7&center=true&vCenter=true&width=595&height=44&lines=i%20do%20opensource;interested%20in%20machine%20learning%20and%20AI" alt="Typing headlines" />
-</p>
+Applied ML engineer working on computer vision, deep reinforcement learning, and
+the unglamorous parts of ML that decide whether a model is usable — serving it,
+grading it, and keeping it honest about what it has actually measured.
 
+**B.Tech, Computer Science (AI & ML), KIET — 2026.**
 
-## About Me
+## Featured work
 
-I work primarily in computer vision, deep learning, and applied AI, with an emphasis on solving practical problems through robust engineering and data-driven methods.
+Six systems, each with a written blueprint — problem, approach, and the pipeline
+it runs through.
 
-I have hands-on experience building and deploying machine learning models with TensorFlow and Keras, and developing computer vision solutions using OpenCV and MediaPipe.
+| | Project | What it is |
+| --- | --- | --- |
+| 01 | [PyroGuard](https://github.com/santhosh220z/PyroGuard) | Real-time fire and smoke detection over camera streams. YOLOv8, with temporal verification so a single ambiguous frame cannot open an incident. FastAPI, pluggable alert providers behind a circuit breaker, SQLite incident lifecycle, Docker. |
+| 02 | [Learn-to-drive-with-RL](https://github.com/santhosh220z/Learn-to-drive-with-RL) | PPO on Gymnasium `CarRacing-v3` from stacked grayscale frames. The point of the repo is the evaluation harness: held-out rewards written to `eval.json`, kept separate from the training reward, because only one of those two numbers is comparable across runs. |
+| 03 | [code-and-algorithm-visualizer](https://github.com/santhosh220z/code-and-algorithm-visualizer) | Algorithms and data structures animated in lockstep with their own pseudocode, plus a mode that executes a program you paste in, line by line, with live variables and a recursive call stack. React 19, TypeScript. |
+| 04 | [Deepfake-Detection](https://github.com/santhosh220z/Deepfake-Detection) | A served classifier for manipulated media: a Hugging Face checkpoint for stills, a GenConViT branch for video, behind a FastAPI endpoint that falls back to CPU. |
+| 05 | [SIGN_SPEAK](https://github.com/santhosh220z/SIGN_SPEAK-The-Silent-Communicator) | Sign-language input turned into speech, for students who type to communicate and cannot. MediaPipe landmarks, a custom annotated dataset, temporal smoothing so the caption does not flicker. **Used by 50+ people**; selected for the regional round at TechSakshyam. |
+| 06 | [StrokeSense](https://github.com/santhosh220z/ISCHEMIC_STOKE_PREDICTION) | Stroke risk from two inputs that never arrive together: a Random Forest over the clinical chart (SMOTE, `StratifiedKFold`) and a ResNet50V2 classifier for MRI, served by Flask to a React client. |
 
-My projects include:
-- Real-time hand gesture recognition systems
-- Deepfake detection models
-- AI-driven chatbot solutions
+Also built: a
+[stoichiometry engine](https://github.com/santhosh220z/CHEMICAL-REACTIONS-PROJECT)
+that balances equations and resolves the limiting reagent from first principles,
+and a
+[disaster-response simulator](https://github.com/santhosh220z/disaster_management_simulation_using_RL)
+where a Q-learning agent allocates beds, water and power — written directly
+against NumPy with no RL framework.
 
-I am also exploring reinforcement learning and simulation-based environments to apply AI in dynamic, physics-based systems.
+## How I work
 
-## Core Competencies
+I am more interested in the part of a project after the notebook than before it.
+Three things I have repeatedly reached for, each of them visible in the repos
+above:
 
-- Machine learning and deep learning model development
-- Computer vision and real-time image processing
-- Data preprocessing, model training, and evaluation
-- AI system design and integration
-- Web-based deployment of AI applications
+- **Refusing to act on weak evidence.** PyroGuard will not raise an alert on one
+  frame, because a detector that pages on flicker teaches everyone to ignore it.
+- **Measuring on held-out data.** The RL harness scores itself separately from
+  its training reward; the clinical model is cross-validated with
+  `StratifiedKFold` and oversampled with SMOTE, since raw accuracy on an
+  imbalanced dataset is won outright by predicting the majority class.
+- **Saying what is not done.** The RL repo records a passing smoke test and a
+  training run still in progress rather than a reward it has not earned. PyroGuard
+  carries an explicit notice that it is a prototype and not a certified
+  fire-safety system.
 
-## Technical Stack
+## Stack
 
-- Languages: Python, JavaScript
-- Frameworks/Libraries: TensorFlow, Keras, OpenCV, MediaPipe
-- Tools & Platforms: Git, GitHub, VS Code
+**Languages** Python, JavaScript, TypeScript, SQL
 
-## Connect With Me
+**ML** PyTorch, TensorFlow / Keras, Hugging Face Transformers, scikit-learn,
+Stable-Baselines3, MediaPipe, OpenCV
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siva-sambhavi-santhosh-sunkara-588a24265/)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:santhoshsunkarasbe@gmail.com)
+**Ship** Docker, Docker Compose, FastAPI, Flask, Nginx, GitHub Actions, Render, Vercel
 
-## Tech Stack Badges
+**Data** Pandas, NumPy, Streamlit, Plotly
 
-![HTML5](https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-323330.svg?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Lua](https://img.shields.io/badge/lua-2C2D72.svg?style=for-the-badge&logo=lua&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-4D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![React](https://img.shields.io/badge/react-20232a.svg?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/react_native-20232a.svg?style=for-the-badge&logo=react&logoColor=61DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![NumPy](https://img.shields.io/badge/numpy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-0C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white)
-![Git](https://img.shields.io/badge/git-F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-121011.svg?style=for-the-badge&logo=github&logoColor=white)
+## Currently
 
-## GitHub Stats
-<p>
-  <img height="200" src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=santhosh220z&show_icons=true&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000&count_private=true" alt="stats" />
-  <img height="200" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=santhosh220z&layout=compact&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
-</p>
+Looking for an entry-level AI/ML role — applied machine learning, computer
+vision, or MLOps — where I can keep building with a team.
 
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=santhosh220z&layout=compact&theme=tokyonight&title_color=2ea043&icon_color=2ea043&hide_border=true&bg_color=00000000)
-![]()
+## Elsewhere
 
-### Contribution Graph
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph-gold-gamma.vercel.app/graph?username=santhosh220z&bg_color=00000000&color=2ea043&line=2ea043&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
-</p>
-
-## Random Dev Quote
-
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+- Email — [santhoshsunkarasbe@gmail.com](mailto:santhoshsunkarasbe@gmail.com)
+- LinkedIn — [siva-sambhavi-santhosh-sunkara](https://www.linkedin.com/in/siva-sambhavi-santhosh-sunkara-588a24265/)
